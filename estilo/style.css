@@ -37,7 +37,53 @@ main {
     top: 81.5px;
     left: 23px;
     height: 472px;
-    width: 267;
+    width: 267px;
 
 }
 
+#redes-sociais {
+    text-align: right;
+}
+
+#redes-sociais img {
+    width: 50px;
+    margin: 5px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.430);
+    box-sizing: border-box;
+}
+
+
+#redes-sociais img:hover {
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
+    transition: .4s, border .3s;
+}
+
+#home:hover {
+    border: 2px solid rgb(48, 47, 47);
+}
+
+#face:hover {
+    border: 2px solid rgb(108, 135, 187) ;
+}
+
+#gh:hover {
+    border: 2px solid rgb(74, 155, 85);
+}
+
+#insta:hover {
+    border: 2px solid rgb(119, 65, 175);
+}
+
+#tt:hover {
+    border: 2px solid rgb(57, 115, 153);
+}
+
+#lkd:hover {
+    border: 2px solid rgb(6, 56, 90);
+}
+
+#kwai:hover {
+    border: 2px solid rgb(204, 98, 4);
+}
